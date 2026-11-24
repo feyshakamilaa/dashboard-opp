@@ -1,49 +1,49 @@
-PT Bumi Suksesindo
+# Dashboard Monitoring Kinerja Operasional
 
-# Monitoring Kinerja Operasional
+### Ore Processing Plant (OPP) — PT Bumi Suksesindo
 
-Ore Processing Plant (OPP) — Prototype
+Dashboard interaktif berbasis web yang dikembangkan sebagai prototipe akademik untuk mendukung pemantauan, analisis, dan visualisasi kinerja operasional pada kegiatan pengolahan bijih di *Ore Processing Plant* (OPP).
 
-Data Simulasi Telkom University
+Proyek ini mengimplementasikan kompetensi Sains Data dalam pengolahan data, analisis statistik, analisis deret waktu, *Statistical Process Control* (SPC), serta visualisasi informasi untuk mendukung pemantauan dan evaluasi kinerja operasional.
 
-Dari tanggal Sampai tanggal Shift Kategori gangguan
+## Live Dashboard
 
-Tidak ada data pada kombinasi filter ini. Ubah rentang tanggal atau pilih “Reset filter”.
+Akses dashboard melalui tautan berikut:
 
-## Tren Produksi
+**https://feyshakamilaa.github.io/dashboard-opp/**
 
-Ton, gabungan shift. Klik titik untuk melihat catatannya.
+## Fitur Utama
 
-## Target vs Realisasi
+- **Ringkasan Kinerja Operasional** — Penyajian indikator utama kinerja produksi dan operasional.
+- **Tren Produksi** — Visualisasi perkembangan produksi berdasarkan periode waktu.
+- **Target dan Realisasi** — Perbandingan target dengan capaian produksi.
+- **Waktu Operasional** — Analisis penggunaan waktu operasional dan *downtime*.
+- **Kinerja per Shift** — Perbandingan capaian produksi berdasarkan shift kerja.
+- **Analisis Downtime** — Identifikasi dan visualisasi penyebab gangguan operasional.
+- **Throughput Harian** — Pemantauan produktivitas berdasarkan waktu operasi.
+- **Stabilitas Proses** — Pemantauan variasi proses menggunakan pendekatan *Statistical Process Control* (SPC).
+- **Eksplorasi Data** — Penelusuran data operasional melalui filter dan tabel interaktif.
 
-Total per minggu (ton)
+## Teknologi
 
-## Waktu Operasional
+- HTML
+- CSS
+- JavaScript
+- Visualisasi Data Interaktif
+- Statistical Process Control (SPC)
 
-Dari total jam terjadwal
+## Tentang Proyek
 
-## Kinerja per Shift
+Proyek ini dikembangkan sebagai portofolio akademik sekaligus prototipe pendukung pengajuan Kerja Praktik di PT Bumi Suksesindo, khususnya pada Divisi *Ore Processing Plant* (OPP).
 
-Total realisasi dan target (ton). Klik batang untuk memfilter shift.
+Seluruh data yang digunakan merupakan data simulasi untuk keperluan pembelajaran dan pengembangan kompetensi Sains Data dalam bidang analisis kinerja operasional.
 
-## Penyebab Downtime
+## Disclaimer
 
-Jam, tanpa “Tidak ada”. Klik batang untuk memfilter.
+Dashboard ini merupakan proyek akademik independen dan tidak merepresentasikan data produksi, kondisi operasional, maupun sistem resmi PT Bumi Suksesindo.
 
-## Throughput Harian
+---
 
-Ton/jam = total produksi ÷ total jam operasi per hari
+© 2026 Feysha Kamila Pracilya. All rights reserved.
 
-## Stabilitas Proses
-
-Urutan kronologis: tanggal, lalu shift. Batas kendali dihitung dari data terfilter.
-
-Indikator
-
-## Moving Range
-
-CL = rata-rata; UCL/LCL = CL ± 2,66 × MR̄ (MR̄ = rata-rata rentang bergerak). Batas kendali menggambarkan variasi proses, bukan target operasional; garis target (putus-putus) hanya ditampilkan sebagai pembanding. Hanya titik di luar batas yang ditandai; aturan run belum diterapkan.
-
-Klik baris untuk melihat detail catatan. Klik judul kolom untuk mengurutkan.
-
-Data Simulasi — dataset sintetis untuk prototipe (1 Agu–29 Okt 2026, 90 hari × 2 shift). Bukan data produksi aktual PT Bumi Suksesindo dan bukan koneksi data langsung.
+Penggunaan, penggandaan, modifikasi, dan distribusi proyek ini memerlukan izin dari pengembang, dengan tetap memperhatikan lisensi komponen pihak ketiga yang digunakan.
